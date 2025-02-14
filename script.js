@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         card.innerHTML = `
             <div class="card-inner" onclick="flipCard(this.parentElement)">
                 <div class="card-front">
-                    <img src="Collage/img${index + 1}.jpg" alt="Imagen ${index + 1}">
+                    <img src="img${index + 1}.jpg" alt="Imagen ${index + 1}">
                 </div>
                 <div class="card-back">
                     <p class="love-quote">${randomQuote}</p>
